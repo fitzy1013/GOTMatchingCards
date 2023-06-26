@@ -1,0 +1,70 @@
+header {
+    background-color: blue;
+    color: white;
+}
+
+.MainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4em;
+    padding: 4em;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+.CardGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid black;
+    padding: 1em;
+    gap: 1em;
+}
+
+.characterImage {
+    width: 10em;
+    height: 10em;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.card-container {
+    display: flex;
+    width: 10em;
+    border-radius: 15px;
+    flex-direction:  column;
+    border: 1px solid brown;
+}
+
+.characterNameElement {
+    text-align: center;
+    padding: 0.5em;
+}
+
+.ScoreSection {
+    display: flex;
+    justify-content: center;
+    width: 70em;
+    gap: 5em;
+}
+
+.currentScore {
+    padding: 0.5em;
+    width: 20%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: red;
+    
+}
+
+.highScore {
+    padding: 0.5em;
+    width: 20%;
+    border-radius: 20px;
+    text-align: center;
+    background-color: red;
+}
